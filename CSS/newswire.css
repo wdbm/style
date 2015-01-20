@@ -36,43 +36,43 @@
 
 /* fonts */
 
-@font-face {
+@font-face{
    font-family: 'FuturaLTBold';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/FuturaLT-Bold.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'FuturaLT';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/FuturaLT.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'cmunrm';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmunrm.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'cmunbtl';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmunbtl.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'cmtex10';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmtex10.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'cmuntb';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmuntb.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'Dante_MT_Medium';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Dante_MT_Medium.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'comic';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/comic.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'Fixedsys500c';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Fixedsys500c.ttf);
 }
-@font-face {
+@font-face{
    font-family: 'data-unifon';
    src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/data-unifon.ttf);
 }
