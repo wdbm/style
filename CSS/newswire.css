@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2015-01-20T1322Z                                                    #
+# version: 2015-01-20T1447Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -37,44 +37,44 @@
 /* fonts */
 
 @font-face {
-    font-family: 'FuturaLTBold';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/FuturaLT-Bold.ttf);
+   font-family: 'FuturaLTBold';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/FuturaLT-Bold.ttf);
 }
 @font-face {
-    font-family: 'FuturaLT';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/FuturaLT.ttf);
+   font-family: 'FuturaLT';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/FuturaLT.ttf);
 }
 @font-face {
-    font-family: 'cmunrm';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/cmunrm.ttf);
+   font-family: 'cmunrm';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmunrm.ttf);
 }
 @font-face {
-    font-family: 'cmunbtl';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/cmunbtl.ttf);
+   font-family: 'cmunbtl';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmunbtl.ttf);
 }
 @font-face {
-    font-family: 'cmtex10';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/cmtex10.ttf);
+   font-family: 'cmtex10';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmtex10.ttf);
 }
 @font-face {
-    font-family: 'cmuntb';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/cmuntb.ttf);
+   font-family: 'cmuntb';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmuntb.ttf);
 }
 @font-face {
-    font-family: 'Dante_MT_Medium';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/Dante_MT_Medium.ttf);
+   font-family: 'Dante_MT_Medium';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Dante_MT_Medium.ttf);
 }
 @font-face {
-    font-family: 'comic';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/comic.ttf);
+   font-family: 'comic';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/comic.ttf);
 }
 @font-face {
-    font-family: 'Fixedsys500c';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/Fixedsys500c.ttf);
+   font-family: 'Fixedsys500c';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Fixedsys500c.ttf);
 }
 @font-face {
-    font-family: 'data-unifon';
-    src: URL(https://raw.githubusercontent.com/wdbm/style/master/fonts/data-unifon.ttf);
+   font-family: 'data-unifon';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/data-unifon.ttf);
 }
 
 html{
