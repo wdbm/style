@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2015-08-28T1718Z                                                    #
+# version: 2015-10-09T1204Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -82,9 +82,9 @@ html{
     font-family: cmuntb;
     height: 100%;
     font-size: 100%;
-	/* force scrollbar in non-IE browser */
+    /* force scrollbar in non-IE browser */
     overflow-y: scroll;
-	/* prevent iOS text size adjust on orientation change without disabling user
+    /* prevent iOS text size adjust on orientation change without disabling user
      * zoom */
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -96,6 +96,7 @@ body{
     min-height: 100%;
     max-width: 100%;
     text-align: justify;
+    padding-bottom: 2cm;
 }
 
 body:before{
@@ -847,7 +848,7 @@ a[href*="/admin"]{
         list-style: none;
         margin: 1em 0.65em;
         font-size: 0.8em;
-	}
+    }
 
     article.archive .archive-date{
         color: #999999;
