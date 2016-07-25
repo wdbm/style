@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2015-01-20T1447Z                                                    #
+# version: 2016-07-25T1338Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -147,7 +147,7 @@ figure,
 figcaption,
 button,
 hr,
-header {
+header{
     /*margin: 0 0 1.5em;*/
 }
 
@@ -398,7 +398,7 @@ img{
 }
 
 /* overflow display fix for IE9 */
-svg:not(:root) {
+svg:not(:root){
     overflow: hidden;
 }
 
@@ -428,10 +428,12 @@ del{
 /* others */
 
 hr{
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #ffffff;
     display: block;
-    height: 1px;
+    height: 2px;
     border: 0;
+    color:#000000;
+    background-color:#000000;
 }
 
 /* position 'sub' and 'sup' without affecting line-height */
@@ -861,7 +863,7 @@ a[href*="/admin"]{
         margin: 0 0 2em;
     }
 
-    #main-header h1 {
+    #main-header h1{
         font-size: 42px;
         line-height: 48px;
         letter-spacing: 0;
@@ -1037,7 +1039,7 @@ a[href*="/admin"]{
 
 /* print styles inlined to avoid extra HTTP connection */
 
-@media print {
+@media print{
 
     *{
         background: transparent !important;
