@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2016-04-01T1427Z                                                    #
+# version: 2016-07-26T1530Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -927,7 +927,7 @@ a[href*="/admin"]{
 @media only screen and (min-width: 480px){
 
     body{
-        width: 100%;		
+        width: 100%;
     }
 
     .content{
@@ -1024,7 +1024,7 @@ a[href*="/admin"]{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;	
+        background-size: cover;
     }
 
 }
@@ -1054,7 +1054,7 @@ a[href*="/admin"]{
         content: ""; 
     }
 
-	/* printing tables (css-discuss.incutio.com/wiki/Printing_Tables) */
+    /* printing tables (css-discuss.incutio.com/wiki/Printing_Tables) */
     thead{
         display: table-header-group;
     }

@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2016-07-26T1044Z                                                    #
+# version: 2016-07-26T1530Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -82,9 +82,9 @@ html{
     font-family: cmuntb;
     height: 100%;
     font-size: 100%;
-	/* force scrollbar in non-IE browser */
+    /* force scrollbar in non-IE browser */
     overflow-y: scroll;
-	/* prevent iOS text size adjust on orientation change without disabling user
+    /* prevent iOS text size adjust on orientation change without disabling user
      * zoom */
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -839,7 +839,7 @@ a[href*="/admin"]{
         list-style: none;
         margin: 1em 0.65em;
         font-size: 0.8em;
-	}
+    }
 
     article.archive .archive-date{
         color: #999999;
@@ -935,7 +935,7 @@ a[href*="/admin"]{
 @media only screen and (min-width: 480px){
 
     body{
-        width: 100%;		
+        width: 100%;
     }
 
     .content{
@@ -1032,7 +1032,7 @@ a[href*="/admin"]{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;	
+        background-size: cover;
     }
 
 }
@@ -1071,7 +1071,7 @@ a[href*="/admin"]{
         content: ""; 
     }
 
-	/* printing tables (css-discuss.incutio.com/wiki/Printing_Tables) */
+    /* printing tables (css-discuss.incutio.com/wiki/Printing_Tables) */
     thead{
         display: table-header-group;
     }
