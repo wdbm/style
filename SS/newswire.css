@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2016-07-25T1338Z                                                    #
+# version: 2016-07-26T1044Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -651,7 +651,9 @@ article.archive .archive-date-divider{
     float: right;
     font-size: 0.65em;
     margin-top: -2.3em;
-}  
+}
+
+
 
 .archive-spacer{
     padding-top: 2.3em;
@@ -1228,8 +1230,9 @@ tbody tr:nth-child(odd) th{
     background-color: #f9f9f9;
 }
 
-/* deactivate line feed of tag p */
+/* deactivate line feed of tag p
 p{
     display:inline;
     margin-bottom:0;
 }
+*/
