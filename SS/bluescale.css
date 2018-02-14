@@ -1,0 +1,108 @@
+/*
+################################################################################
+#                                                                              #
+# bluescale                                                                    #
+#                                                                              #
+################################################################################
+#                                                                              #
+# version: 2018-02-14T1959Z                                                    #
+#                                                                              #
+################################################################################
+#                                                                              #
+# LICENCE INFORMATION                                                          #
+#                                                                              #
+# This program is a style file.                                                #
+#                                                                              #
+# copyright (C) 2018 William Breaden Madden                                    #
+#                                                                              #
+# This software is released under the terms of the GNU General Public License  #
+# version 3 (GPLv3).                                                           #
+#                                                                              #
+# This program is free software: you can redistribute it and/or modify it      #
+# under the terms of the GNU General Public License as published by the Free   #
+# Software Foundation, either version 3 of the License, or (at your option)    #
+# any later version.                                                           #
+#                                                                              #
+# This program is distributed in the hope that it will be useful, but WITHOUT  #
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or        #
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for     #
+# more details.                                                                #
+#                                                                              #
+# For a copy of the GNU General Public License, see                            #
+# <http://www.gnu.org/licenses/>.                                              #
+#                                                                              #
+################################################################################
+*/
+
+/* fonts */
+
+@font-face{
+   font-family: 'OswaldBold';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Oswald-Bold.ttf);
+}
+@font-face{
+   font-family: 'OswaldLight';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Oswald-Light.ttf);
+}
+@font-face{
+   font-family: 'OswaldRegular';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Oswald-Regular.ttf);
+}
+@font-face{
+   font-family: 'cmtex10';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/cmtex10.ttf);
+}
+@font-face{
+   font-family: 'comic';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/comic.ttf);
+}
+@font-face{
+   font-family: 'Fixedsys500c';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Fixedsys500c.ttf);
+}
+@font-face{
+   font-family: 'datalatin';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/data-latin.ttf);
+}
+@font-face{
+   font-family: 'dataunifon';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/data-unifon.ttf);
+}
+@font-face{
+   font-family: 'Meyrin';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/Meyrin.ttf);
+}
+
+@font-face{
+   font-family: 'monof55';
+   src: URL(https://cdn.rawgit.com/wdbm/style/master/fonts/monof55.ttf);
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+    background: #114488;
+    color: #EEEEEE;
+}
+
+body{
+    padding: 0 1em 0 1em;
+    margin: 0 0 1em 1em;
+    border-left: 8px solid #EEE;
+    line-height: 1.5em;
+}
+
+a{
+    color: #EEE;
+}
+
+ul{
+    list-style-type: square;
+}
+
+pre{
+    background: #EEEEEE;
+    color: #000000;
+    padding: 1.5em;
+}
