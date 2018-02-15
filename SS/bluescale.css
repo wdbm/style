@@ -5,7 +5,7 @@
 #                                                                              #
 ################################################################################
 #                                                                              #
-# version: 2018-02-14T1959Z                                                    #
+# version: 2018-02-15T1737Z                                                    #
 #                                                                              #
 ################################################################################
 #                                                                              #
@@ -89,7 +89,7 @@ html{
 body{
     padding: 0 1em 0 1em;
     margin: 0 0 1em 1em;
-    border-left: 8px solid #EEE;
+    border-left: 8px solid #EEEEEE;
     line-height: 1.5em;
 }
 
@@ -105,4 +105,148 @@ pre{
     background: #EEEEEE;
     color: #000000;
     padding: 1.5em;
+}
+
+/* tables */
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    text-align: left;
+}
+
+tr,
+th,
+td{
+    padding-right: 1.5em;
+}
+
+/* left margin on pages */
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom
+.container{
+    width: 940px;
+}
+.container{
+    margin-right: auto;
+    margin-left:auto;
+    *zoom: 1;
+}
+.container:before,.container:after{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+/* remove unnecessary border spacings */
+table{
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing:0;
+}
+
+/* extend tables across the full page width, rather than limiting them to the
+ * minimum size */
+.table{
+    width: 100%;
+    margin-bottom: 21px;
+}
+.table th,
+.table td{
+    padding: 8px;
+    line-height: 21px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #EEEEEE;
+}
+
+/* thin table top border */
+.table caption+thead tr: first-child th,
+.table caption+thead tr:first-child td,
+.table colgroup+thead tr:first-child th,
+.table colgroup+thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td{
+    border-top: 0;
+}
+
+.table-bordered th,
+.table-bordered td{
+    border-left:1px solid #EEEEEE;
+}
+
+/* table alternating line colours */
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th{
+    background-color: #EEEEEE;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 21px;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing:0;
+    /* table bordered */
+    border:1px solid #EEEEEE;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-left: 0;
+}
+
+th,
+td{
+    padding: 8px;
+    line-height: 21px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
+/* table alternating line colours */
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th{
+    background-color: #366099;
+}
+
+/* figures */
+
+figure{
+    margin: 0;
+}
+
+/* embedded content */
+
+img,
+object,
+video{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+/* others */
+
+hr{
+    border-bottom: 8px solid #EEEEEE;
+    display: block;
+    height: 1.5em;
+    border: 0;
+    color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+figure{
+    float: left;
+    margin-right: 3%;
+    font-size: 0.625em;
+    text-align: center;
 }
